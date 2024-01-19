@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sublime Home Page</title>
+<style type="text/css">
+@import url("NEON/stylesheet.css");
+@import url("nepoboy/stylesheet.css");
+
+	body {
+    background-color: #111111;
+}
+body,td,th {
+    color: #FFFFFF;
+    font-family: NEON;
+    font-size: larger;
+    text-align: center;
+    background-color: #000000;
+    display: compact;
+}
+.Header {
+    background-color: #000000;
+}
+.Tagline {
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(173,173,173,1.00) 27.53%,rgba(173,173,173,1.00) 74.54%,rgba(0,0,0,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(173,173,173,1.00) 27.53%,rgba(173,173,173,1.00) 74.54%,rgba(0,0,0,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(173,173,173,1.00) 27.53%,rgba(173,173,173,1.00) 74.54%,rgba(0,0,0,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(173,173,173,1.00) 27.53%,rgba(173,173,173,1.00) 74.54%,rgba(0,0,0,1.00) 100%);
+    width: 100%;
+    font-family: nepoboy;
+}
+</style>
+</head>
+
+<body>
+<table width="100%" height="137" border="0">
+  <tbody>
+    <tr>
+      <th width="20%" bgcolor="#000000" class="Header" scope="col"></th>
+      <th width="13%" bgcolor="#000000" class="Header" scope="col"><a href="Home Page.html"><img src="../Resources/Website/Website Title.jpg" alt="" width="249" height="170" class="Header"/></a></th>
+      <th width="40%" bgcolor="#000000" class="Header" scope="col">&nbsp;</th>
+      <th width="7%" bgcolor="#000000" class="Header" scope="col"><a href="https://www.youtube.com/@igottago3440"><img src="../Resources/Website/Gone Fishing.jpg" width="149" height="147" alt=""/></a></th>
+      <th width="20%" bgcolor="#000000" class="Header" scope="col"></th>
+    </tr>
+  </tbody>
+</table>
+<table width="100%" height="77" border="0" class="Tagline">
+  <tbody>
+    <tr class="Tagline">
+      <th width="16%">&nbsp;</th>
+      <th width="16%" Link="Home Page.html"  >&nbsp;</th>
+      <th width="16%">Products</th>
+      <th width="16%">About</th>
+      <th width="16%">Contact</th>
+      <th width="16%">&nbsp;</th>
+    </tr>
+  </tbody>
+</table>
+<table border="0">
+  <tr>
+  
+</tr>
+</table>
+<video width="100%" height="1063" poster="../../Screenshot 2024-01-13 at 12.43.31 PM.png" preload="auto" muted="muted" autoplay="autoplay" loop="loop" >
+  <source src="../Voodoo/Product Displays/V Formation/Voodoo Zoom Final.mp4" type="video/mp4">
+  <img src="../Resources/Website/Devices and accesories.png" alt="" width="945" height="1398"/></video>
+</body>
+</html>
