@@ -19,40 +19,58 @@ body,td,th {
     display: compact;
 }
 .Header {
-    background-color: #000000;
+    background-color: #ffffff;
+    border-color: #FFFFFF;
+    border-style: none;
 }
-.Tagline {
+.Navigation {
     background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(173,173,173,1.00) 27.53%,rgba(173,173,173,1.00) 74.54%,rgba(0,0,0,1.00) 100%);
     background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(173,173,173,1.00) 27.53%,rgba(173,173,173,1.00) 74.54%,rgba(0,0,0,1.00) 100%);
     background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(173,173,173,1.00) 27.53%,rgba(173,173,173,1.00) 74.54%,rgba(0,0,0,1.00) 100%);
     background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(173,173,173,1.00) 27.53%,rgba(173,173,173,1.00) 74.54%,rgba(0,0,0,1.00) 100%);
-    width: 100%;
-    font-family: nepoboy;
+    font-family: NEON;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #000000;
+    font-size: xx-large;
+}
+.Devices {
+    background-image: url(../Resources/Website/Devices%20and%20accesories.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.Juices {
+    background-image: url(../Resources/Website/Juice%20Tag.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
 }
 </style>
 </head>
 
 <body>
-<table width="100%" height="137" border="0">
-  <tbody>
-    <tr>
-      <th width="20%" bgcolor="#000000" class="Header" scope="col"></th>
-      <th width="13%" bgcolor="#000000" class="Header" scope="col"><a href="Home Page.html"><img src="../Resources/Website/Website Title.jpg" alt="" width="249" height="170" class="Header"/></a></th>
+<table width="100%" height="137" border="1" class="Header">
+  <tbody class="Header">
+    <tr class="Header">
+      <td width="20%" bgcolor="#000000" class="Header" scope="col"></td>
+      <th width="13%" bgcolor="#000000" class="Header" scope="col"><a href="Home Page.html"><img src="../Resources/Website/Website Title.png" alt="" width="249" height="170" class="Header"/></a></th>
       <th width="40%" bgcolor="#000000" class="Header" scope="col">&nbsp;</th>
-      <th width="7%" bgcolor="#000000" class="Header" scope="col"><a href="https://www.youtube.com/@igottago3440"><img src="../Resources/Website/Gone Fishing.jpg" width="149" height="147" alt=""/></a></th>
+      <th width="7%" bgcolor="#000000" class="Header" scope="col"><a href="https://www.youtube.com/@igottago3440"><img src="../Resources/Website/Gone Fishing.png" width="149" height="147" alt=""/></a></th>
       <th width="20%" bgcolor="#000000" class="Header" scope="col"></th>
     </tr>
   </tbody>
 </table>
-<table width="100%" height="77" border="0" class="Tagline">
+<table width="100%" height="77" border="0" class="Navigation">
   <tbody>
-    <tr class="Tagline">
-      <th width="16%">&nbsp;</th>
-      <th width="16%" Link="Home Page.html"  >&nbsp;</th>
-      <th width="16%">Products</th>
-      <th width="16%">About</th>
-      <th width="16%">Contact</th>
-      <th width="16%">&nbsp;</th>
+    <tr>
+      <th width="16%" class="Navigation">&nbsp;</th>
+      <th width="16%" Link="Home Page.html" class="Navigation">Home</th>
+      <th width="16%" class="Navigation">Products</th>
+      <th width="16%" class="Navigation">About</th>
+      <th width="16%" class="Navigation">Contact</th>
+      <th width="16%" class="Navigation">&nbsp;</th>
     </tr>
   </tbody>
 </table>
@@ -61,8 +79,16 @@ body,td,th {
   
 </tr>
 </table>
-<video width="100%" height="1063" poster="../../Screenshot 2024-01-13 at 12.43.31 PM.png" preload="auto" muted="muted" autoplay="autoplay" loop="loop" >
+<video width="100%" height="100%" poster="../../Screenshot 2024-01-13 at 12.43.31 PM.png" preload="auto" muted="muted" autoplay="autoplay" loop="loop" >
   <source src="../Voodoo/Product Displays/V Formation/Voodoo Zoom Final.mp4" type="video/mp4">
   <img src="../Resources/Website/Devices and accesories.png" alt="" width="945" height="1398"/></video>
+<table width="100%" height="1396" border="0">
+  <tbody>
+    <tr>
+      <td width="50%" nowrap="nowrap" class="Devices">Devices And Accesories</td>
+	  <td width="50%" nowrap="nowrap" class="Juices" style="">E-Liquids</td>
+    </tr>
+  </tbody>
+</table>
 </body>
 </html>
