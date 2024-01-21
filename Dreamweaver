@@ -1,13 +1,23 @@
 <!doctype html>
 <html>
-<head>
 <meta charset="UTF-8">
 <title>Sublime Home Page</title>
+<!--favorites icons-->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<!-- For third-generation iPad with high-resolution Retina display: -->
+<link rel="apple-touch-icon" sizes="144x144" href="favicon.ico" />
+<!-- For iPhone with high-resolution Retina display (iPhone 5 included): -->
+<link rel="apple-touch-icon" sizes="114x114" href="favicon.ico" />
+<!-- For first- and second-generation iPad: -->
+<link rel="apple-touch-icon" sizes="72x72" href="favicon.ico" /> 
+<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices (57x57): -->
+<link rel="apple-touch-icon" href="favicon.ico" />
 <style type="text/css">
 @import url("NEON/stylesheet.css");
 @import url("nepoboy/stylesheet.css");
-
-	body {
+		body {
+		margin: 0
     background-color: #111111;
 }
 body,td,th {
@@ -17,7 +27,7 @@ body,td,th {
     text-align: center;
     background-color: #000000;
     display: compact;
-}
+}	
 .Header {
     background-color: #ffffff;
     border-color: #FFFFFF;
@@ -35,21 +45,26 @@ body,td,th {
     color: #FFFFFF;
     text-shadow: 2px 2px #000000;
     font-size: xx-large;
+    border-style: hidden;
+    border-width: thick;
 }
-.Devices {
-    background-image: url(../Resources/Website/Devices%20and%20accesories.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-.Juices {
-    background-image: url(../Resources/Website/Juice%20Tag.png);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 0px;
 </style>
-</head>
-
+	<script>.onload = .getElementById("id01")</script>
+	<div id="id01" class="modal">
+		<img width="100%" src="../Resources/Website/Entry.png" alt="">
+	</div>
 <body>
 <table width="100%" height="137" border="1" class="Header">
   <tbody class="Header">
@@ -62,7 +77,7 @@ body,td,th {
     </tr>
   </tbody>
 </table>
-<table width="100%" height="77" border="0" class="Navigation">
+<table width="100%" height="77" border="1" class="Navigation">
   <tbody>
     <tr>
       <th width="16%" class="Navigation">&nbsp;</th>
@@ -79,14 +94,17 @@ body,td,th {
   
 </tr>
 </table>
-<video width="100%" height="100%" poster="../../Screenshot 2024-01-13 at 12.43.31 PM.png" preload="auto" muted="muted" autoplay="autoplay" loop="loop" >
+<video width="80%" height="100%" poster="../../Screenshot 2024-01-13 at 12.43.31 PM.png" preload="off" muted="muted" autoplay="autoplay" loop="loop">
   <source src="../Voodoo/Product Displays/V Formation/Voodoo Zoom Final.mp4" type="video/mp4">
-  <img src="../Resources/Website/Devices and accesories.png" alt="" width="945" height="1398"/></video>
-<table width="100%" height="1396" border="0">
+  <img src="../Resources/Website/Devices and accesories.png" alt="" width="945" height="1398"/>
+</video>
+<table width="100%" height="1154" border="0">
   <tbody>
     <tr>
-      <td width="50%" nowrap="nowrap" class="Devices">Devices And Accesories</td>
-	  <td width="50%" nowrap="nowrap" class="Juices" style="">E-Liquids</td>
+      <td nowrap="nowrap"></td>
+	  <td width="40%" nowrap="nowrap" style=""><img src="../Resources/Website/Devices and accesories.png" id="id02" width="780" height="1154" alt=""/></td>
+	  <td width="40%" nowrap="nowrap" class="Juices" style=""><img src="../Resources/Website/Juice Tag.png" width="780" height="1154" alt=""/></td>
+	  <td nowrap="nowrap" style=""></td>
     </tr>
   </tbody>
 </table>
